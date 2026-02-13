@@ -1,59 +1,78 @@
-🎲 Tenzies Game – React
+# 🎲 Tenzies Game - React
 
-A simple and interactive dice game built with React.
-Roll the dice until all values match. Hold dice to freeze them between rolls.
+A fun and interactive dice game built with React! Roll the dice, freeze your favorites, and try to get all ten dice showing the same number. Celebrate your victory with a confetti explosion! 🎉
 
-📌 Features
+## 🎮 About The Game
 
-🎲 Random dice generation
+Tenzies is a fast-paced dice game where the goal is to roll until all dice show the same number. Click on individual dice to "hold" them at their current value, then keep rolling the remaining dice until you win!
 
-📌 Hold/unhold dice
+## ✨ Features
 
-🔄 Re-roll only non-held dice
+- **Interactive Gameplay**: Click to hold/unhold individual dice
+- **Visual Feedback**: Held dice turn green for easy identification
+- **Win Detection**: Automatic game completion detection
+- **Confetti Celebration**: Animated confetti when you win 🎊
+- **Accessibility**: Built with ARIA labels and screen reader support
+- **Responsive Design**: Works seamlessly across different screen sizes
+- **Auto-focus**: Automatically focuses on the "New Game" button when you win
 
-🏆 Automatic win detection
+## 🛠️ Built With
 
-🎉 Confetti animation on win
+- **React** - UI library with Hooks (useState, useRef, useEffect)
+- **Vite** - Fast build tool and development server
+- **nanoid** - Unique ID generation for dice
+- **react-confetti** - Celebration animations
 
-♿ Accessibility improvements (keyboard focus + aria-live announcements)
+## 🚀 Getting Started
 
-🧠 Game Rules
+### Prerequisites
 
-Roll until all dice have the same value.
+- Node.js (v14 or higher)
+- npm or yarn
 
-Click a die to freeze its value.
+### Installation
 
-Re-roll the rest.
+1. Clone the repository
+```bash
+git clone https://github.com/Ayoubxpy/-Tenzies-Game-React.git
+```
 
-When all dice are held and have the same value → You win!
+2. Navigate to the project directory
+```bash
+cd -Tenzies-Game-React
+```
 
-🛠️ Built With
-
-React (Hooks: useState, useEffect, useRef)
-
-nanoid (unique IDs)
-
-react-confetti
-
-CSS
-
-⚙️ Installation
-
-Clone the repository:
-
-git clone https://github.com/Ayoubxpy/Tenzies-Game-React.git
-
-
-Go inside the project:
-
-cd Tenzies-Game-React
-
-
-Install dependencies:
-
+3. Install dependencies
+```bash
 npm install
+```
 
-
-Start development server:
-
+4. Start the development server
+```bash
 npm run dev
+```
+
+5. Open your browser and visit `http://localhost:5173` (or the URL shown in your terminal)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👨‍💻 Author
+
+**Ayoub**
+- GitHub: [@Ayoubxpy](https://github.com/Ayoubxpy)
+
+## 🙏 Acknowledgments
+
+- Inspired by the classic Tenzi dice game
+- Built as a React learning project
+- Thanks to Scrimba  for this  amazing project .
+
+---
+
+⭐️ If you enjoyed this project, please give it a star on GitHub! ⭐️
